@@ -13,7 +13,7 @@ function Dashboard() {
   const {user}:any=useKindeBrowserClient();
   //const getUser=useQuery(api.user.getUser,{email:user?.email});
 
-  const createUser=useMutation(api.user.createUser);
+  const createUser=useMutation(api.user.createUser); 
   useEffect(()=>{
       if(user)
       {
